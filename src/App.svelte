@@ -2,24 +2,27 @@
 <script lang="ts">
   import Footer from "./components/Footer.svelte";
   import Header from "./components/Header.svelte";
-  import Hero from "./components/Hero.svelte";
+  import HeroSection from "./components/HeroSection.svelte";
   import Offer from "./components/Offer.svelte";
 </script>
 
 <!-- * TEMPLATE -->
 <template>
+  <!-- @ Header -->
   <Header />
 
   <main>
-    <Hero />
+    <!-- @ Hero Section -->
+    <HeroSection />
+
+    <!-- @ Offer Section -->
     <Offer />
   </main>
 
+  <!-- @ Footer -->
   <Footer />
 </template>
-<!-- markup (zero or more items) goes here -->
 
 <!-- * STYLE -->
 <style lang="scss">
-  /* your styles go here */
 </style>

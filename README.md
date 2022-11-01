@@ -30,7 +30,7 @@ button to add to cart.
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/newbpydev/product-preview-card-component)
+- Solution URL: [GitHub](https://github.com/newbpydev/11-equalizer-landing-page-svelte-ts-vite-scss)
 - Live Site URL: [Live Site](https://darling-pastelito-c7764d.netlify.app/)
 
 ## My process

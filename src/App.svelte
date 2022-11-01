@@ -1,10 +1,22 @@
 <!-- * SCRIPT -->
 <script lang="ts">
-  // your script goes here
+  import Footer from "./components/Footer.svelte";
+  import Header from "./components/Header.svelte";
+  import Hero from "./components/Hero.svelte";
+  import Offer from "./components/Offer.svelte";
 </script>
 
 <!-- * TEMPLATE -->
-<template>text_goes_here</template>
+<template>
+  <Header />
+
+  <main>
+    <Hero />
+    <Offer />
+  </main>
+
+  <Footer />
+</template>
 <!-- markup (zero or more items) goes here -->
 
 <!-- * STYLE -->

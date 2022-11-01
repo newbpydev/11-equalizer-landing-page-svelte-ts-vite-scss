@@ -26,12 +26,11 @@ body {
   color: var(--black);
 
   display: flex;
-  align-items: center;
   justify-content: center;
   min-height: 100vh;
   min-width: 100vw;
   position: relative;
 
-  overflow: hidden;
-  background-color: var(--prim-color-dark-cyan);
+  overflow-x: hidden;
+  background-color: var(--white);
 }

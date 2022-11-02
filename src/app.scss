@@ -38,3 +38,21 @@ body {
 .wrapper {
   margin: 0rem 2.4rem;
 }
+
+#app {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -25rem;
+    left: 0rem;
+    background-image: url("./assets/images/bg-main-mobile.png");
+    background-size: cover;
+    // background: yellow;
+    width: 58.2rem;
+    height: 78rem;
+    ;
+    z-index: -10;
+  }
+}

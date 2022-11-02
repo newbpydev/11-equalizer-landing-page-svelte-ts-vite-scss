@@ -3,7 +3,7 @@
   import Footer from "./components/Footer.svelte";
   import Header from "./components/Header.svelte";
   import HeroSection from "./components/HeroSection.svelte";
-  import Offer from "./components/Offer.svelte";
+  import OfferSection from "./components/OfferSection.svelte";
 </script>
 
 <!-- * TEMPLATE -->
@@ -11,12 +11,13 @@
   <!-- @ Header -->
   <Header />
 
+  <!-- @ Main -->
   <main>
-    <!-- @ Hero Section -->
+    <!-- # Hero Section -->
     <HeroSection />
 
-    <!-- @ Offer Section -->
-    <Offer />
+    <!-- # Offer Section -->
+    <OfferSection />
   </main>
 
   <!-- @ Footer -->

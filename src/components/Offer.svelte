@@ -20,8 +20,10 @@
     </div>
     <!-- buttons -->
 
-    <Button icon="ios">iOS Download</Button>
-    <Button icon="android">Android Download</Button>
+    <div class="offer__buttons">
+      <Button icon="ios">iOS Download</Button>
+      <Button icon="android">Android Download</Button>
+    </div>
   </section>
 </template>
 
@@ -48,6 +50,27 @@
 
     &__payment-options {
       display: flex;
+      align-items: center;
+      margin-bottom: 3.2rem;
+
+      & .offer__price {
+        font-size: 6.5rem;
+        font-weight: 700;
+        line-height: 5.2rem;
+        margin-right: 1.6rem;
+      }
+
+      & .offer__per-month {
+        font-size: 2rem;
+        line-height: 3.2rem;
+        letter-spacing: -0.2px;
+      }
+    }
+
+    &__buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
     }
   }
 </style>

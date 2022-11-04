@@ -16,6 +16,10 @@
     margin-top: 3.9rem;
     margin-bottom: 6rem;
 
+    @media screen and (min-width: 48em) {
+      margin-top: 6.2rem;
+    }
+
     & .header__logo {
       width: 14.6rem;
     }

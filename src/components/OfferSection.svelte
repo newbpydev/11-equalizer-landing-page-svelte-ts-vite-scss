@@ -40,6 +40,11 @@
       transform: translateX(-51%);
       margin: 0 auto;
       width: 20.897rem;
+
+      // 400px = 25em
+      @media screen and (min-width: 48em) {
+        width: 27rem;
+      }
     }
   }
 </style>

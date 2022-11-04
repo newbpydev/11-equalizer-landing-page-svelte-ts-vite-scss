@@ -38,6 +38,12 @@
     border-radius: 1.2rem;
     color: var(--white);
 
+    @media screen and (min-width: 25em) {
+      width: 40rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
     &__heading {
       font-size: 3.2rem;
       font-weight: 700;

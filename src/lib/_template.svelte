@@ -7,4 +7,17 @@
 
 <!-- * STYLE -->
 <style lang="scss">
+  /* 
+  // 1440px = 90em
+  @media screen and (min-width: 90em) {
+    }
+
+  // 768px = 48em
+  @media screen and (min-width: 48em) {}
+    
+    // 400px = 25em
+    @media screen and (min-width: 25em) {
+    }
+
+  */
 </style>

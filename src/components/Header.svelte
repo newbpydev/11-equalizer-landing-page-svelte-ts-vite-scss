@@ -13,8 +13,8 @@
 <!-- * STYLE -->
 <style lang="scss">
   .header {
-    margin-top: 2.415rem;
-    margin-bottom: 6.4rem;
+    margin-top: 3.9rem;
+    margin-bottom: 6rem;
 
     & .header__logo {
       width: 14.6rem;

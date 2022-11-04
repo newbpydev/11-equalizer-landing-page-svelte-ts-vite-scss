@@ -55,6 +55,7 @@
       display: flex;
       align-items: center;
       margin-bottom: 3.2rem;
+      margin-left: 0.6rem;
 
       & .offer__price {
         font-size: 6.5rem;
@@ -74,6 +75,7 @@
       display: flex;
       flex-direction: column;
       gap: 1.6rem;
+      margin-left: 0.6rem;
     }
   }
 </style>

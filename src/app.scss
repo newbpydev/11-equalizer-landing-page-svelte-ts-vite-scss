@@ -31,7 +31,7 @@ body {
   min-width: 100vw;
   position: relative;
 
-  overflow-x: hidden;
+
   background-color: var(--white);
 }
 
@@ -41,6 +41,7 @@ body {
 
 #app {
   position: relative;
+  overflow-x: hidden;
 
   &::before {
     content: '';

@@ -25,7 +25,7 @@
   .button {
     width: 100%;
     // height: 6.1rem;
-    padding: 1.5rem 0;
+    padding: 1.4rem 0;
     border-radius: 1.2rem;
     text-align: center;
     font-size: 1.8rem;
@@ -35,9 +35,14 @@
     cursor: pointer;
     transition: all 0.3s ease;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     &__icon {
       fill: white;
       margin-right: 0.78rem;
+      height: 2rem;
     }
 
     &.dark {

@@ -34,11 +34,10 @@
     margin-bottom: 39rem;
 
     &__image {
-      // display: none;
       position: absolute;
-      top: -9rem;
+      top: -9.9rem;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-51%);
       margin: 0 auto;
       width: 20.897rem;
     }

@@ -51,19 +51,36 @@ I have learned on this project that we need to practice everyday and work hard
 to really understand how everything works, specially with the images background.
 I will have to review this topic better.
 
-```css
-.product-card__button {
-  width: 100%;
-  height: 4.8rem;
-  border: none;
-  border-radius: 0.8rem;
-  background: var(--pri-cyan);
-  color: var(--neut-white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.161rem;
-  transition: all 0.3s ease;
+```scss
+&::before {
+  content: "";
+  position: absolute;
+  top: -25rem;
+  left: 0rem;
+  background-image: url("./assets/images/bg-main-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 58.2rem;
+  height: 78rem;
+  z-index: -10;
+
+  @media screen and (min-width: 48em) {
+    background-image: url("./assets/images/bg-main-tablet.png");
+    width: 128.3rem;
+    height: 110.8rem;
+    left: -30rem;
+  }
+
+  @media screen and (min-width: 68.75em) {
+    background-image: url("./assets/images/bg-main-desktop.png");
+    width: 191.3rem;
+    height: 205.8rem;
+    left: -35rem;
+  }
+
+  @media screen and (min-width: 89em) {
+    left: -27rem;
+  }
 }
 ```
 
@@ -74,7 +91,7 @@ could practice more the placement of the image in the element.
 
 ### Useful resources
 
-- [CSS-TRICKS - Centering CSS Complete Guide](https://css-tricks.com/centering-css-complete-guide/) - If you have two or more block-level elements that need to be centered horizontally in a row, chances are you’d be better served making them a different display type. Here’s an example of making them inline-block and an example of flexbox....
+- [CSS-TRICKS - Centering CSS Complete Guide](https://css-tricks.com/using-svg/) - If you have two or more block-level elements that need to be centered horizontally in a row, chances are you’d be better served making them a different display type. Here’s an example of making them inline-block and an example of flexbox....
 - [MDN - background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) - The background-image CSS property sets one or more background images on an element.
 
 ## Author

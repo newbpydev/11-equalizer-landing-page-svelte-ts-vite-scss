@@ -71,7 +71,7 @@
 
     @media screen and (min-width: 48em) {
       margin-bottom: 8.5rem;
-      margin-left: 3.4rem;
+      // margin-left: 3.4rem;
     }
 
     @media screen and (min-width: 68.75em) {

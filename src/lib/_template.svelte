@@ -9,8 +9,7 @@
 <style lang="scss">
   /* 
   // 1440px = 90em
-  @media screen and (min-width: 90em) {
-    }
+  @media screen and (min-width: 89em) {}
 
   // 1100px = 68.75em
   @media screen and (min-width: 68.75em) {}

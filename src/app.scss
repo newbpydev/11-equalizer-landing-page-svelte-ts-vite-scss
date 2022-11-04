@@ -42,6 +42,10 @@ body {
   @media screen and (min-width: 48em) {
     margin: 0rem 3.9rem;
   }
+
+  @media screen and (min-width: 89em) {
+    margin: 0rem 16.5rem;
+  }
 }
 
 #app {
@@ -63,6 +67,14 @@ body {
     }
 
 
+
+  }
+
+  @media screen and (min-width: 89em) {
+    &::after {
+
+      transform: translate(0rem, -3rem);
+    }
   }
 
   &::before {
@@ -89,7 +101,10 @@ body {
       width: 191.3rem;
       height: 205.8rem;
       left: -35rem;
+    }
 
+    @media screen and (min-width: 89em) {
+      left: -27rem;
     }
   }
 }

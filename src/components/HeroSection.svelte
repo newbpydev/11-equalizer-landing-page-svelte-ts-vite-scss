@@ -24,6 +24,10 @@
       margin-bottom: 25rem;
     }
 
+    @media screen and (min-width: 89em) {
+      margin-bottom: 32.1rem;
+    }
+
     & .hero__title {
       font-size: 4rem;
       line-height: 4.8rem;

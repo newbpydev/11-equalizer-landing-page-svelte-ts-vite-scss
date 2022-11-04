@@ -25,9 +25,9 @@ button to add to cart.
 
 ### Screenshot
 
-![](./public/images/screenshot-desktop.png)
-![](./public/images/screenshot-tablet.png)
-![](./public/images/screenshot-mobile.png)
+![](./src/assets/images/screenshot-desktop.png)
+![](./src/assets/images/screenshot-tablet.png)
+![](./src/assets/images/screenshot-mobile.png)
 
 ### Links
 

@@ -71,6 +71,7 @@
 
     @media screen and (min-width: 48em) {
       margin-bottom: 8.5rem;
+      margin-left: 3.4rem;
     }
 
     &__social-copy-wrapper {
@@ -121,6 +122,10 @@
       display: flex;
       gap: 2rem;
       align-items: center;
+
+      @media screen and (min-width: 48em) {
+        margin-top: 0.6rem;
+      }
 
       // &:hover {
       //   & path {

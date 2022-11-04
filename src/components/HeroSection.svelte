@@ -21,7 +21,7 @@
     margin-bottom: 16.6rem;
 
     @media screen and (min-width: 48em) {
-      margin-bottom: 24.9rem;
+      margin-bottom: 25rem;
     }
 
     & .hero__title {

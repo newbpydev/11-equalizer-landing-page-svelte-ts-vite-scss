@@ -39,14 +39,15 @@
     color: var(--white);
 
     @media screen and (min-width: 25em) {
+      padding: 4.8rem;
       width: 40rem;
       left: 50%;
       transform: translateX(-50%);
     }
 
     @media screen and (min-width: 48em) {
-      top: 15rem;
-      left: 62%;
+      top: 14.9rem;
+      left: 62.5%;
     }
 
     &__heading {

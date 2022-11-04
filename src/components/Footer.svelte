@@ -23,7 +23,11 @@
       </div>
 
       <div class="footer__social">
-        <a href="#app" class="footer__icon-facebook">
+        <a
+          href="#app"
+          class="footer__icon-facebook"
+          aria-label="follow us on facebook"
+        >
           <!-- <img src={facebook} alt="facebook link" /> -->
           <svg
             class="footer__fb"
@@ -37,7 +41,11 @@
           >
         </a>
 
-        <a href="#app" class="footer__icon-instagram">
+        <a
+          href="#app"
+          class="footer__icon-instagram"
+          aria-label="follow us on instagram"
+        >
           <!-- <img src={instagram} alt="instagram link" /> -->
           <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"
             ><path
@@ -47,7 +55,11 @@
           >
         </a>
 
-        <a href="#app" class="footer__icon-twitter">
+        <a
+          href="#app"
+          class="footer__icon-twitter"
+          aria-label="follow us on twitter"
+        >
           <!-- <img src={twitter} alt="twitter link" /> -->
           <svg width="20" height="17" xmlns="http://www.w3.org/2000/svg"
             ><path

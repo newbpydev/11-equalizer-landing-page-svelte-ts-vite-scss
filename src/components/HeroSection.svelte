@@ -17,7 +17,7 @@
 <!-- * STYLE -->
 <style lang="scss">
   .hero {
-    margin-bottom: 6.8rem;
+    margin-bottom: 16.6rem;
 
     & .hero__title {
       font-size: 4rem;

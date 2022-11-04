@@ -49,10 +49,9 @@ body {
     left: 0rem;
     background-image: url("./assets/images/bg-main-mobile.png");
     background-size: cover;
-    // background: yellow;
+    background-repeat: no-repeat;
     width: 58.2rem;
     height: 78rem;
-    ;
     z-index: -10;
   }
 }

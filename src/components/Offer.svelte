@@ -30,6 +30,9 @@
 <!-- * STYLE -->
 <style lang="scss">
   .offer {
+    position: absolute;
+    top: 38rem;
+
     padding: 4.8rem 3.65rem;
     background: var(--orange);
     border-radius: 1.2rem;

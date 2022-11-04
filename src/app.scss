@@ -63,19 +63,27 @@ body {
       background-size: cover;
       width: 26.667rem;
       height: 40rem;
-      transform: translate(3.5rem, -3.2rem) // height: 46.8rem;
+      transform: translate(3.5rem, -3.2rem);
+      // height: 46.8rem;
+
+      @media screen and (min-width: 89em) {
+        width: 31.2rem;
+        height: 46.8rem;
+        transform: translate(0rem, -4rem);
+      }
+
     }
 
 
 
   }
 
-  @media screen and (min-width: 89em) {
-    &::after {
+  // @media screen and (min-width: 89em) {
+  //   &::after {
 
-      transform: translate(0rem, -3rem);
-    }
-  }
+  //     transform: translate(0rem, -3rem);
+  //   }
+  // }
 
   &::before {
     content: '';

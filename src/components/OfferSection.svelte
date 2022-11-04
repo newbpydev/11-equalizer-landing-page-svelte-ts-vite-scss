@@ -33,6 +33,13 @@
     border-radius: 1.2rem;
     margin-bottom: 39rem;
 
+    @media screen and (min-width: 48em) {
+      background-position: 50% -3.1rem;
+      margin: 0 auto;
+      width: 69.6rem;
+      margin-bottom: 18.3rem;
+    }
+
     &__image {
       position: absolute;
       top: -9.9rem;
@@ -44,6 +51,8 @@
       // 400px = 25em
       @media screen and (min-width: 48em) {
         width: 27rem;
+        left: 26%;
+        top: -13.8rem;
       }
     }
   }

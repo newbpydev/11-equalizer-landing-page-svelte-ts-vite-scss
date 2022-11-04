@@ -44,6 +44,11 @@
       transform: translateX(-50%);
     }
 
+    @media screen and (min-width: 48em) {
+      top: 15rem;
+      left: 62%;
+    }
+
     &__heading {
       font-size: 3.2rem;
       font-weight: 700;

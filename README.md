@@ -19,9 +19,11 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 
 ## Overview
 
-This is my solution to the Product preview card component challenge. It is a simple card
-that shows the image of the product and a description with the price and a
-button to add to cart.
+This is my solution to the Equalizer Landing Page challenge. This is a landing
+page for a mobile app called equalizer that uses Svelte, Vite, TypeScript and
+custom SCSS. The user can get information about the product and links to
+download the app either from the iOS App Store or the Android Play Store. The
+user can also get in contact with the company using the social sites or through email.
 
 ### Screenshot
 
@@ -32,16 +34,16 @@ button to add to cart.
 ### Links
 
 - Solution URL: [GitHub](https://github.com/newbpydev/11-equalizer-landing-page-svelte-ts-vite-scss)
-- Live Site URL: [Live Site](https://darling-pastelito-c7764d.netlify.app/)
+- Live Site URL: [Live Site](https://playful-halva-f374b3.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS custom properties
 - Flexbox
-- Svelte + Vite
+- Svelte + Vite + TypeScript
 
 ### What I learned
 

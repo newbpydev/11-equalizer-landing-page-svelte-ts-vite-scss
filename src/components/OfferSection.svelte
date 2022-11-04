@@ -41,6 +41,13 @@
       margin-bottom: 18.1rem;
     }
 
+    @media screen and (min-width: 68.75em) {
+      width: 111rem;
+      background-position: 33.6rem -4rem;
+      background-size: 31.2rem;
+      margin-bottom: 20.2rem;
+    }
+
     &__image {
       position: absolute;
       top: -9.9rem;
@@ -54,6 +61,12 @@
         width: 27rem;
         left: 28.6%;
         top: -14rem;
+      }
+
+      @media screen and (min-width: 68.75em) {
+        width: 31.2rem;
+        top: -21.3rem;
+        left: 20%;
       }
     }
   }

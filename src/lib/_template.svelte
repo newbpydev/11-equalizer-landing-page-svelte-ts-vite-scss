@@ -12,6 +12,9 @@
   @media screen and (min-width: 90em) {
     }
 
+  // 1100px = 68.75em
+  @media screen and (min-width: 68.75em) {}
+
   // 768px = 48em
   @media screen and (min-width: 48em) {}
     

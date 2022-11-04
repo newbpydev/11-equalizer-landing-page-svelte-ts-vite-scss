@@ -74,7 +74,16 @@
       margin-left: 3.4rem;
     }
 
+    @media screen and (min-width: 68.75em) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 13.776rem;
+      margin-bottom: 9.1rem;
+    }
+
     &__social-copy-wrapper {
+      flex-grow: 1;
       display: flex;
       flex-direction: column;
       gap: 6.4rem;
@@ -82,6 +91,9 @@
       @media screen and (min-width: 48em) {
         flex-direction: row;
         justify-content: space-between;
+      }
+
+      @media screen and (min-width: 68.75em) {
       }
     }
     &__logo {

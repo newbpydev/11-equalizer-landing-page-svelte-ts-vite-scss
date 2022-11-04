@@ -38,6 +38,14 @@
         letter-spacing: -0.7272px;
         margin-bottom: 2.8rem;
       }
+
+      @media screen and (min-width: 68.75em) {
+        font-size: 8.8rem;
+        line-height: 8.8rem;
+        width: 101.5rem;
+        letter-spacing: -1px;
+        margin-bottom: 4rem;
+      }
     }
 
     & .hero__description {
@@ -47,6 +55,12 @@
         font-size: 1.8rem;
         width: 51.4rem;
         line-height: 2.8rem;
+      }
+
+      @media screen and (min-width: 68.75em) {
+        font-size: 2rem;
+        width: 82.5rem;
+        line-height: 3.4rem;
       }
     }
   }

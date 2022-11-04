@@ -61,6 +61,8 @@ body {
       height: 40rem;
       transform: translate(3.5rem, -3.2rem) // height: 46.8rem;
     }
+
+
   }
 
   &::before {
@@ -80,6 +82,14 @@ body {
       width: 128.3rem;
       height: 110.8rem;
       left: -30rem;
+    }
+
+    @media screen and (min-width: 68.75em) {
+      background-image: url('./assets/images/bg-main-desktop.png');
+      width: 191.3rem;
+      height: 205.8rem;
+      left: -35rem;
+
     }
   }
 }

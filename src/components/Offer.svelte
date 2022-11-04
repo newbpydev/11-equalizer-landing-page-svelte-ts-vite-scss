@@ -50,17 +50,36 @@
       left: 62.5%;
     }
 
+    @media screen and (min-width: 68.75em) {
+      width: 44.6rem;
+      // padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+      top: 12rem;
+      left: 70%;
+    }
+
     &__heading {
       font-size: 3.2rem;
       font-weight: 700;
       line-height: 4rem;
       margin-bottom: 1.2rem;
+
+      @media screen and (min-width: 68.75em) {
+        font-size: 4rem;
+        line-height: 5.2rem;
+        margin-bottom: 2.2rem;
+      }
     }
 
     &__description {
       font-size: 1.8rem;
       line-height: 2.8rem;
       margin-bottom: 3.6rem;
+
+      @media screen and (min-width: 68.75em) {
+        font-size: 2rem;
+        line-height: 3.4rem;
+        margin-bottom: 3.9rem;
+      }
     }
 
     &__payment-options {
@@ -68,6 +87,10 @@
       align-items: center;
       margin-bottom: 3.2rem;
       margin-left: 0.6rem;
+
+      @media screen and (min-width: 68.75em) {
+        margin-bottom: 4.6rem;
+      }
 
       & .offer__price {
         font-size: 6.5rem;

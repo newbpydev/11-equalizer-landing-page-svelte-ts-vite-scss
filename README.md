@@ -91,8 +91,7 @@ could practice more the placement of the image in the element.
 
 ### Useful resources
 
-- [CSS-TRICKS - Centering CSS Complete Guide](https://css-tricks.com/using-svg/) - If you have two or more block-level elements that need to be centered horizontally in a row, chances are you’d be better served making them a different display type. Here’s an example of making them inline-block and an example of flexbox....
-- [MDN - background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) - The background-image CSS property sets one or more background images on an element.
+- [CSS-TRICKS - Using SVG](https://css-tricks.com/using-svg/) - SVG is an image format for vector graphics. It literally means Scalable Vector Graphics. Basically, what you work with in Adobe Illustrator. You can use SVG on the web pretty easily, but there is plenty you should know.
 
 ## Author
 

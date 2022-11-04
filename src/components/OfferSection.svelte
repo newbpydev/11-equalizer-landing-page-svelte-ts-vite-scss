@@ -66,7 +66,7 @@
       @media screen and (min-width: 68.75em) {
         width: 31.2rem;
         top: -21.3rem;
-        left: 20%;
+        left: 23.6%;
       }
     }
   }

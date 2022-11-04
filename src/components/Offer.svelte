@@ -52,9 +52,9 @@
 
     @media screen and (min-width: 68.75em) {
       width: 44.6rem;
-      // padding: 5.8rem 5.9rem 4.8rem 5.4rem;
-      top: 12rem;
-      left: 70%;
+      padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+      top: 9rem;
+      left: 71.4%;
     }
 
     &__heading {
@@ -91,6 +91,9 @@
       @media screen and (min-width: 68.75em) {
         margin-bottom: 4.6rem;
       }
+      @media screen and (min-width: 89em) {
+        margin-left: 0rem;
+      }
 
       & .offer__price {
         font-size: 6.5rem;
@@ -111,6 +114,10 @@
       flex-direction: column;
       gap: 1.6rem;
       margin-left: 0.6rem;
+
+      @media screen and (min-width: 89em) {
+        margin-left: 0rem;
+      }
     }
   }
 </style>

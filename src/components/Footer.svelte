@@ -16,7 +16,9 @@
         <p class="footer__copyright">All rights reserved © Equalizer 2021</p>
         <p class="footer__contact">
           Have any problems? Contact us via social media or email us at
-          <span class="footer__email">equalizer@example.com </span>
+          <a class="footer__email" href="mailto:equalizer@example.com"
+            >equalizer@example.com</a
+          >
         </p>
       </div>
 
@@ -67,10 +69,19 @@
     gap: 3.2rem;
     margin-bottom: 8rem;
 
+    @media screen and (min-width: 48em) {
+      margin-bottom: 8.5rem;
+    }
+
     &__social-copy-wrapper {
       display: flex;
       flex-direction: column;
       gap: 6.4rem;
+
+      @media screen and (min-width: 48em) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
     }
     &__logo {
       width: 14.6rem;
@@ -79,11 +90,20 @@
     &__copyright,
     &__contact {
       line-height: 2.6rem;
+
+      @media screen and (min-width: 48em) {
+        width: 36.6rem;
+      }
       // width: 31.7rem;
     }
 
     &__email {
       font-weight: 700;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--orange);
+      }
     }
 
     // &__icon-facebook > svg > path {
